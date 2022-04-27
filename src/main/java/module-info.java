@@ -4,5 +4,7 @@ module rifqimuhammadaziz.javafxcomponent {
 
 
     opens rifqimuhammadaziz.javafxcomponent to javafx.fxml;
+    exports rifqimuhammadaziz.javafxcomponent.controller;
+    opens rifqimuhammadaziz.javafxcomponent.controller to javafx.fxml;
     exports rifqimuhammadaziz.javafxcomponent;
 }
