@@ -1,0 +1,8 @@
+
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(»ù…Ù
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¯Îã•
+L
+java:S2175"1A "ObservableSet<String>" cannot contain a "int".(ŒÖ³Èıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(éªÊ‘üÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(üä¦“ùÿÿÿÿ8ÛßÔ†0
