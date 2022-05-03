@@ -5,15 +5,14 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0"
-      prefWidth="150.0" spacing="5.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="rifqimuhammadaziz.javafxcomponent.controller.FirstLayoutController"
-      fx:id="rootVBox">
+<VBox fx:id="rootVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="150.0" spacing="5.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rifqimuhammadaziz.javafxcomponent.controller.FirstLayoutController">
    <padding>
       <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
    </padding>
    <children>
       <Label text="This is First Layout" />
       <Button mnemonicParsing="false" onAction="#openAction" text="Open Second Layout" />
+      <Button mnemonicParsing="false" onAction="#openThirdLayoutAction" text="Open Third Layout" />
+      <Button mnemonicParsing="false" onAction="#openFouthLayoutAction" text="Open Fourth Layout" />
    </children>
 </VBox>
