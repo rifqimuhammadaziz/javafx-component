@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class MainControllerNew implements Initializable {
+public class MainController implements Initializable {
 
     private ObservableList<Citizen> citizens;
     
@@ -28,7 +28,7 @@ public class MainControllerNew implements Initializable {
     private void openFirstAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("send-data-between-layout/first-layout.fxml"));
         Parent root = fxmlLoader.load();
-        FirstControllerNew controller = fxmlLoader.getController();
+        FirstController controller = fxmlLoader.getController();
         controller.setMainController(this);
         Stage firstStage = new Stage();
         firstStage.setTitle("First Layout");
@@ -40,7 +40,7 @@ public class MainControllerNew implements Initializable {
     private void openSecondAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("send-data-between-layout/second-layout.fxml"));
         Parent root = fxmlLoader.load();
-        SecondControllerNew controller = fxmlLoader.getController();
+        SecondController controller = fxmlLoader.getController();
         controller.setMainController(this);
         Stage secondStage = new Stage();
         secondStage.setTitle("Second Layout");

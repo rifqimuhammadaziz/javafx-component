@@ -6,7 +6,7 @@
 
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="rifqimuhammadaziz.javafxcomponent.controller.sharingData.SecondControllerNew">
+            fx:controller="rifqimuhammadaziz.javafxcomponent.controller.sharingData.SecondController">
    <children>
       <TableView fx:id="tableCitizen" layoutX="154.0" layoutY="38.0" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
         <columns>

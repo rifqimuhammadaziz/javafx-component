@@ -5,13 +5,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import rifqimuhammadaziz.javafxcomponent.controller.sharingData.MainControllerNew;
 import rifqimuhammadaziz.javafxcomponent.entity.Citizen;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class SecondControllerNew implements Initializable {
+public class SecondController implements Initializable {
 
     @FXML
     private TableView<Citizen> tableCitizen;
@@ -20,9 +19,9 @@ public class SecondControllerNew implements Initializable {
     @FXML
     private TableColumn<Citizen, String> colName;
 
-    private MainControllerNew mainControllerNew;
+    private MainController mainControllerNew;
 
-    public void setMainController(MainControllerNew mainControllerNew) {
+    public void setMainController(MainController mainControllerNew) {
         this.mainControllerNew = mainControllerNew;
         tableCitizen.setItems(mainControllerNew.getCitizens());
     }
